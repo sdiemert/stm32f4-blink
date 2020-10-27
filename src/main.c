@@ -13,7 +13,7 @@ int main(void) {
     MX_GPIO_Init();
 
     while (1) {
-        HAL_Delay(500);
+        HAL_Delay(200);
         HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
     }
 }
